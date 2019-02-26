@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: mqo_gq.MultiQuery_gq_Hybrid
+Class-Path: lib/sesame-http-client-2.8.10.jar lib/sesame-model-2.8.10.jar lib/sesame-query-2.8.10.jar
+  lib/sesame-queryalgebra-model-2.8.10.jar lib/sesame-queryparser-api-2.8.10.jar lib/sesame-queryparser-sparql-2.8.10.jar
+  lib/sesame-repository-api-2.8.10.jar lib/sesame-repository-http-2.8.10.jar lib/sesame-rio-api-2.8.10.jar
+  lib/sesame-runtime-osgi-2.8.10.jar lib/httpclient-4.4.jar lib/httpclient-cache-4.4.jar lib/httpcore-4.4.jar
+  lib/jcl-over-slf4j-1.7.10.jar lib/slf4j-api-1.7.10.jar lib/logback-classic-1.1.2.jar lib/logback-core-1.1.2.jar
+

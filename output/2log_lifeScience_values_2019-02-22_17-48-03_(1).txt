@@ -1,0 +1,3 @@
+templateNum =1, queryNum =2
+severList : [SeverInfo [sesameServer=http://47.92.169.107:8080/openrdf-sesame, repositoryID=chebi], SeverInfo [sesameServer=http://47.92.169.107:8080/openrdf-sesame, repositoryID=kegg], SeverInfo [sesameServer=http://47.92.150.30:8080/openrdf-sesame, repositoryID=drugbank], SeverInfo [sesameServer=http://47.92.150.30:8080/openrdf-sesame, repositoryID=dbpedia]]
+

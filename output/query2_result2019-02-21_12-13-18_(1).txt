@@ -1,0 +1,13 @@
+[?drug=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00007	?title="Humans and other mammals"	?cas=http://bio2rdf.org/cas:53714-56-0	?keggDrug=http://bio2rdf.org/cpd:C07612	]
+[?drug=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00007	?title="Humans and other mammals"	?cas=http://bio2rdf.org/cas:53714-56-0	?keggDrug=http://bio2rdf.org/dr:D08113	]
+
+
+==== there are 2 results for query 1 ====
+
+
+[?drug=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00114	?id=http://bio2rdf.org/cas:54-47-7	?keggDrug=http://bio2rdf.org/cpd:C00018	]
+
+
+==== there are 1 results for query 2 ====
+
+
