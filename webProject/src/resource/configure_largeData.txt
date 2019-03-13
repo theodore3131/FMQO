@@ -1,0 +1,6 @@
+DataServerFile=resource/FMQO-data/configure/largeData.txt
+optimizaType=values
+outputPath=/Users/zhiweixu/Desktop/FMQO/output
+WorkloadPath=/Users/zhiweixu/Desktop/FMQO/config/test.txt
+DataType=largeData
+Data=resource/FMQO-data/configure/property/linkM_47.92.162.13_172.26.35.249.property;resource/FMQO-data/configure/property/linkE_47.92.169.107_172.26.35.251.property;resource/FMQO-data/configure/property/linkA_47.92.169.107_172.26.35.251.property;resource/FMQO-data/configure/property/affym_47.92.150.30_172.26.35.250.property;resource/FMQO-data/configure/property/chebi_47.92.169.107_172.26.35.251.property;resource/FMQO-data/configure/property/kegg_47.92.169.107_172.26.35.251.property;resource/FMQO-data/configure/property/drugbank_47.92.150.30_172.26.35.250.property;resource/FMQO-data/configure/property/dbpedia_47.92.150.30_172.26.35.250.property;resource/FMQO-data/configure/property/gnames_47.92.169.107_172.26.35.251.property;resource/FMQO-data/configure/property/jamendo_47.92.150.30_172.26.35.250.property;resource/FMQO-data/configure/property/lmdb_47.92.169.107_172.26.35.251.property;resource/FMQO-data/configure/property/nyt_47.92.150.30_172.26.35.250.property;resource/FMQO-data/configure/property/swdfood_47.92.150.30_172.26.35.250.property;

@@ -2,11 +2,142 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="webProject" />
+      <artifact name="FMQO" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85b2d20f-5c1f-49aa-97bb-eec0d3657b67" name="Default Changelist" comment="" />
+    <list default="true" id="85b2d20f-5c1f-49aa-97bb-eec0d3657b67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/queryExamples.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configure_lifeScience.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_11-47-35_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_11-47-58_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_11-48-53_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_11-50-38_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_11-54-27_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_11-54-56_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_12-01-10_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_12-06-01_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_12-08-15_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_12-08-38_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_12-09-25_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_12-13-18_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_12-14-39_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_12-15-46_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_13-40-27_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_13-45-03_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_13-56-53_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_13-58-02_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_14-20-47_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_14-22-13_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_23-13-43_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_23-16-24_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_23-20-06_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_23-22-05_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_23-22-28_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_23-39-32_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_23-46-43_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_23-47-45_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_23-47-56_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-21_23-56-43_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-22_00-02-13_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-22_00-02-36_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-22_00-13-24_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-22_00-16-38_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-22_17-47-13_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-22_17-48-03_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-24_23-10-37_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-25_18-08-29_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-25_18-08-47_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-25_18-08-55_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/2log_lifeScience_values_2019-02-26_12-27-06_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_11-47-35_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_11-47-58_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_11-48-53_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_11-50-38_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_11-54-27_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_11-54-56_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_12-01-10_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_12-06-01_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_12-08-15_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_12-08-38_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_12-09-25_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_12-13-18_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_12-14-39_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_12-15-46_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_13-40-27_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_13-45-03_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_13-56-53_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_13-58-02_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_14-20-47_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_14-22-13_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_23-13-43_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_23-16-24_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_23-20-06_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_23-22-05_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_23-22-28_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_23-39-32_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_23-46-43_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_23-47-45_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_23-47-56_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-21_23-56-43_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-22_00-02-13_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-22_00-02-36_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-22_00-13-24_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-22_00-16-38_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-22_17-47-13_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-24_23-10-37_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-25_18-08-29_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-25_18-08-47_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-25_18-08-55_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../output/query2_result2019-02-26_12-27-06_(1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startbootstrap-bare-gh-pages/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FMQO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/FMQO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FMQO/FMQO.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FMQO/FMQO.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FMQO/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webProject/WEB-INF/classes/com/theodore/servlet/queryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webProject/WEB-INF/classes/com/theodore/servlet/queryServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webProject/WEB-INF/classes/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webProject/WEB-INF/classes/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webProject/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webProject/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webProject/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webProject/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webProject/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webProject/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webProject/com/theodore/servlet/queryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webProject/com/theodore/servlet/queryServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webProject/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webProject/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/theodore/servlet/queryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/theodore/servlet/queryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,80 +145,54 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1097008630">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="18" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="6" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="css" value="6" />
-          <entry key="java" value="4" />
-          <entry key="js" value="4" />
-          <entry key="jsp" value="2" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="CSS" value="6" />
-          <entry key="JAVA" value="4" />
-          <entry key="JSP" value="2" />
-          <entry key="JavaScript" value="4" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="23" />
-          <entry key="html" value="227" />
-          <entry key="java" value="1171" />
-          <entry key="jsp" value="1322" />
-          <entry key="xml" value="158" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="23" />
-          <entry key="HTML" value="227" />
-          <entry key="JAVA" value="1546" />
-          <entry key="JSP" value="2320" />
-          <entry key="XML" value="158" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#findNextJoinableRewrittenQuery#0;class#MultiQuery_gq_Hybrid#0" />
+                <element signature="method#sortByHittingQueryNum#0;class#MultiQuery_gq_Hybrid#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="123" column="7" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="7" />
+            <state relative-caret-position="428">
+              <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/result.jsp">
+        <entry file="file://$PROJECT_DIR$/web/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/queryExamples.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="68" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -95,8 +200,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/theodore/servlet/queryServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="960">
+              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,24 +210,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/web/result.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="154" column="93" selection-start-line="154" selection-start-column="86" selection-end-line="154" selection-end-column="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#findNextJoinableRewrittenQuery#0;class#MultiQuery_gq_Hybrid#0" />
-                <element signature="method#sortByHittingQueryNum#0;class#MultiQuery_gq_Hybrid#0" />
-              </folding>
+            <state relative-caret-position="201">
+              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -134,16 +225,49 @@
       <list>
         <option value="CSS File" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>allQueryList</find>
-      <find>queryNum</find>
       <find>workloadPath</find>
+      <find>匹配</find>
+      <find>共</find>
+      <find>source</find>
+      <find>Source</find>
+      <find>out2</find>
+      <find>out1</find>
+      <find>result</find>
+      <find>resFileStr</find>
+      <find>propertyMap</find>
+      <find>templateNumArr</find>
+      <find>query</find>
+      <find>query_n</find>
+      <find>SPARQLquery</find>
+      <find>queryNumArr</find>
+      <find>queryNum</find>
+      <find>windowSize</find>
+      <find>$PROJECT_DIR$</find>
+      <find>outputPath</find>
+      <find>File</find>
+      <find>severPath</find>
+      <find>boolean</find>
+      <find>tpSourceMap</find>
+      <find>myPatternSet</find>
+      <find>config</find>
+      <find>curSourceList</find>
+      <find>allQueryList</find>
       <find>run</find>
+      <find>severList</find>
     </findStrings>
+    <replaceStrings>
+      <replace>resource</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,20 +275,29 @@
         <option value="$PROJECT_DIR$/src/Servlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/index.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/src/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.java" />
-        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/configure_lifeScience.txt" />
+        <option value="$PROJECT_DIR$/configure_crossDomain.txt" />
+        <option value="$PROJECT_DIR$/configure_largeData.txt" />
+        <option value="$PROJECT_DIR$/configure_lifeWat.txt" />
+        <option value="$PROJECT_DIR$/configure_lifeCrossWat.txt" />
+        <option value="$PROJECT_DIR$/web/result.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/queryExamples" />
+        <option value="$PROJECT_DIR$/src/multiQueryOptJoin/src/mqo_gq/Test.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/queryExamples.txt" />
         <option value="$PROJECT_DIR$/src/com/theodore/servlet/queryServlet.java" />
-        <option value="$PROJECT_DIR$/web/result.jsp" />
+        <option value="$PROJECT_DIR$/src/resource/FMQO-data/configure/largeData.txt" />
+        <option value="$PROJECT_DIR$/src/resource/FMQO-data/configure/crossDomain.txt" />
+        <option value="$PROJECT_DIR$/src/resource/FMQO-data/configure/lifeScience.txt" />
+        <option value="$PROJECT_DIR$/src/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.java" />
+        <option value="$PROJECT_DIR$/web/contact.html" />
+        <option value="$PROJECT_DIR$/web/about.html" />
+        <option value="$PROJECT_DIR$/src/resource/configure_watDiv100.txt" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/result.jsp" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -177,12 +310,14 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,13 +339,6 @@
             <path>
               <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="webProject" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="FMQO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,20 +350,49 @@
             <path>
               <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="webProject" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multiQueryOptJoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multiQueryOptJoin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multiQueryOptJoin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mqo_gq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="FMQO-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="FMQO-data" type="462c0819:PsiDirectoryNode" />
+              <item name="configure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="webProject" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webProject" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
@@ -247,16 +404,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550834489889" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552284077580" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -266,17 +423,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/css" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/js" />
       <recent name="$PROJECT_DIR$/web/css" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/css" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resource" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/css" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,6 +450,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.1">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiQueryOptJoin.src.mqo_gq.Test" />
+      <module name="webProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiQueryOptJoin.src.mqo_gq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.1" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -305,11 +476,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_1_webProject" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="65492" />
       </RunnerSettings>
@@ -365,81 +536,11 @@
         </option>
       </method>
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 9.0.1" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="HOST" value="47.92.170.33" />
-      <option name="LOCAL" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://47.92.170.33:8080/" />
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
-      <deployment>
-        <artifact name="FMQO">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <data>
-          <option name="targets">
-            <list>
-              <WatchedTargetModelImpl>
-                <option name="name" value="CONTEXT_XML" />
-                <option name="transportStagingTarget">
-                  <TransportTarget>
-                    <option name="id" value="fea9aa03-2e82-485e-8870-a52e626532a6" />
-                    <id>fea9aa03-2e82-485e-8870-a52e626532a6</id>
-                  </TransportTarget>
-                </option>
-                <option name="watchedLocalPath" value="" />
-                <watched-path />
-                <name>CONTEXT_XML</name>
-                <transport-target>
-                  <TransportTarget>
-                    <option name="id" value="fea9aa03-2e82-485e-8870-a52e626532a6" />
-                    <id>fea9aa03-2e82-485e-8870-a52e626532a6</id>
-                  </TransportTarget>
-                </transport-target>
-              </WatchedTargetModelImpl>
-              <StagingTargetModelImpl>
-                <option name="name" value="STAGING" />
-                <option name="stagingRemotePath" value="FMQO" />
-                <option name="transportStagingTarget">
-                  <TransportTarget>
-                    <option name="id" value="aebbc952-4063-4c3c-a2d2-e5965d041b51" />
-                    <id>aebbc952-4063-4c3c-a2d2-e5965d041b51</id>
-                  </TransportTarget>
-                </option>
-                <staging-path>FMQO</staging-path>
-                <name>STAGING</name>
-                <transport-target>
-                  <TransportTarget>
-                    <option name="id" value="aebbc952-4063-4c3c-a2d2-e5965d041b51" />
-                    <id>aebbc952-4063-4c3c-a2d2-e5965d041b51</id>
-                  </TransportTarget>
-                </transport-target>
-              </StagingTargetModelImpl>
-            </list>
-          </option>
-          <option name="transportHostId" value="bd962e0c-c09d-492a-a880-95f39e25891b" />
-          <host-id>bd962e0c-c09d-492a-a880-95f39e25891b</host-id>
-        </data>
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="65252" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="FMQO" />
-        </option>
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.1" />
-      <item itemvalue="Tomcat Server.Unnamed" />
-    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -469,34 +570,99 @@
       <workItem from="1551020655899" duration="551000" />
       <workItem from="1551089185132" duration="344000" />
       <workItem from="1551155160681" duration="1059000" />
+      <workItem from="1551527460829" duration="7460000" />
+      <workItem from="1551582935347" duration="4242000" />
+      <workItem from="1551687258409" duration="10467000" />
+      <workItem from="1551874947307" duration="3927000" />
+      <workItem from="1551941869728" duration="16420000" />
+      <workItem from="1552099909751" duration="362000" />
+      <workItem from="1552100343816" duration="7069000" />
+      <workItem from="1552139589296" duration="11000" />
+      <workItem from="1552140412136" duration="2887000" />
+      <workItem from="1552143377215" duration="2120000" />
+      <workItem from="1552151407239" duration="70000" />
+      <workItem from="1552151801925" duration="122000" />
+      <workItem from="1552219582156" duration="12287000" />
+      <workItem from="1552237273822" duration="1539000" />
+      <workItem from="1552269254264" duration="5440000" />
+      <workItem from="1552281328994" duration="2540000" />
+      <workItem from="1552284278368" duration="412000" />
+      <workItem from="1552285036475" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53735000" />
+    <option name="totallyTimeSpent" value="131129000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48097414" visible="true" weight="0.30830282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47640792" visible="true" weight="0.2716728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Image Layers" order="5" />
-      <window_info id="Web" order="6" sideWeight="0.51902586" side_tool="true" visible="true" weight="0.30830282" />
+      <window_info id="Web" order="6" sideWeight="0.5235921" side_tool="true" weight="0.31929183" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4945055" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4920635" weight="0.32959184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50793654" side_tool="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4993895" weight="0.32959184" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32959184" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="15" sideWeight="0.4993895" weight="0.32959184" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47640792" visible="true" weight="0.31929183" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info active="true" id="Web" order="6" sideWeight="0.5235921" side_tool="true" visible="true" weight="0.31929183" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4920635" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50549453" side_tool="true" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50793654" side_tool="true" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Application Servers" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4993895" weight="0.32959184" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="12" />
@@ -513,13 +679,10 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Servlet.java" />
@@ -535,29 +698,62 @@
     <entry file="file://$PROJECT_DIR$/web/js/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/web/css/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/web/css/index.css" />
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/FMQO-data/configure/lifeScience.txt" />
+    <entry file="file://$PROJECT_DIR$/FMQO-data/configure/largeData.txt" />
+    <entry file="file://$PROJECT_DIR$/configure_largeData.txt" />
+    <entry file="file://$PROJECT_DIR$/configure_lifeScience.txt" />
+    <entry file="file://$PROJECT_DIR$/configure_lifeCrossWat.txt" />
+    <entry file="file://$PROJECT_DIR$/configure_lifeWat.txt" />
+    <entry file="file://$PROJECT_DIR$/configure_watDiv100.txt" />
+    <entry file="file://$PROJECT_DIR$/configure_largeWat.txt" />
+    <entry file="file://$PROJECT_DIR$/configure_crossWat.txt" />
+    <entry file="file://$PROJECT_DIR$/configure_crossDomain.txt" />
+    <entry file="file://$PROJECT_DIR$/src/resource/configure_lifeCrossWat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/configure_lifeWat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/configure_lifeCross.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/configure_largeData.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="123" column="7" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/result.jsp">
+    <entry file="file://$PROJECT_DIR$/web/result.html" />
+    <entry file="file://$PROJECT_DIR$/src/resource/FMQO-data/configure/watdiv/watdiv100M_39.98.70.144_172.26.35.252.property">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/FMQO-data/configure/watdiv/watdiv100M.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/FMQO-data/configure/watdiv/crossWat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/FMQO-data/configure/watdiv/largeWat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/FMQO-data/configure/watdiv/lifeCrossWat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/FMQO-data/configure/addressUpdate.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiQueryOptJoin/src/mqo_gq/Test.java" />
+    <entry file="file://$PROJECT_DIR$/web/index.html" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="210">
+          <caret line="652" selection-start-line="652" selection-end-line="652" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theodore/servlet/queryServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/resource/FMQO-data/configure/watdiv/lifeWat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -566,15 +762,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/FMQO-data/configure/largeData.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/FMQO-data/configure/crossDomain.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/configure_crossDomain.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/configure_lifeScience.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="65" lean-forward="true" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/FMQO-data/configure/lifeScience.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/configure_watDiv100.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/multiQueryOptJoin/src/mqo_gq/MultiQuery_gq_Hybrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="154" column="93" selection-start-line="154" selection-start-column="86" selection-end-line="154" selection-end-column="93" />
+        <state relative-caret-position="90">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#findNextJoinableRewrittenQuery#0;class#MultiQuery_gq_Hybrid#0" />
             <element signature="method#sortByHittingQueryNum#0;class#MultiQuery_gq_Hybrid#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/queryExamples.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="68" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/theodore/servlet/queryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -584,7 +866,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>webProject</last-edited>
+          <last-edited>FMQO</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,0 +1,12 @@
+http://172.26.35.250:8080/openrdf-sesame	dbpedia
+http://172.26.35.251:8080/openrdf-sesame	gnames
+http://172.26.35.250:8080/openrdf-sesame	jamendo
+http://172.26.35.251:8080/openrdf-sesame	lmdb
+http://172.26.35.250:8080/openrdf-sesame	nyt
+http://172.26.35.250:8080/openrdf-sesame	swdfood
+http://172.26.35.253:8080/openrdf-sesame	watdiv100
+http://172.26.35.252:8080/openrdf-sesame	watdiv100
+http://172.26.35.254:8080/openrdf-sesame	watdiv100
+http://172.26.35.249:8080/openrdf-sesame	watdiv100
+http://172.26.35.250:8080/openrdf-sesame	watdiv100
+http://172.26.35.251:8080/openrdf-sesame	watdiv100

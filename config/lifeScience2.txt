@@ -1,4 +1,0 @@
-http://47.92.169.107:8080/openrdf-sesame	chebi
-http://47.92.169.107:8080/openrdf-sesame	kegg
-http://47.92.150.30:8080/openrdf-sesame	drugbank
-http://47.92.150.30:8080/openrdf-sesame	dbpedia

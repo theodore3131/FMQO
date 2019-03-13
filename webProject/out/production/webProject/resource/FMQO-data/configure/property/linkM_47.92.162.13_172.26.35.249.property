@@ -1,0 +1,6 @@
+<http://tcga.deri.ie/schema/result>
+<http://tcga.deri.ie/schema/beta_value>
+<http://tcga.deri.ie/schema/chromosome>
+<http://tcga.deri.ie/schema/position>
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+<http://tcga.deri.ie/schema/bcr_patient_barcode>

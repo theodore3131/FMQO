@@ -1,6 +1,0 @@
-DataServerFile=/Users/zhiweixu/Desktop/FMQO/config/lifeScience2.txt
-optimizaType=values
-outputPath=/Users/zhiweixu/Desktop/FMQO/output
-WorkloadPath=/Users/zhiweixu/Desktop/FMQO/config/test.txt
-DataType=lifeScience
-Data=/Users/zhiweixu/Desktop/FMQO/config/chebi.property;/Users/zhiweixu/Desktop/FMQO/config/drugbank.property;/Users/zhiweixu/Desktop/FMQO/config/kegg.property;/Users/zhiweixu/Desktop/FMQO/config/dbpedia.property

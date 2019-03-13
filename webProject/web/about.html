@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="WEB-INF/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="WEB-INF/favicon.ico" type="image/x-icon">
+
+    <title>Federated Multi Query Optimization</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">FMQO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.jsp">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h1 class="mt-5">Federated Multiple Query Optimization</h1>
+            <p>
+                We propose a heuristic query rewriting-based approach to optimize the evaluation of multiple queries.
+                This approach can take full advantage of SPARQL 1.1 to share the common computation of multiple queries while considering the cost of both query evaluation and data shipment.
+                Although we prove that finding the optimal rewriting for multiple queries is NP-complete, we propose a heuristic rewriting algorithm with a bounded approximation ratio.
+                Furthermore, we propose an efficient method to use the interconnection topology between RDF sources to filter out irrelevant sources. We also utilize the characteristic of SPARQL 1.1 to optimize the join of intermediate matches during multiple query evaluation.
+                The extensive experimental studies over both real and synthetic RDF datasets show that the proposed techniques are effective, efficient and scalable.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

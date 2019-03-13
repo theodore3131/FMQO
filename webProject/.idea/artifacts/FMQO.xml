@@ -2,19 +2,7 @@
   <artifact type="war" name="FMQO">
     <output-path>$PROJECT_DIR$/out/artifacts/FMQO</output-path>
     <root id="archive" name="FMQO.war">
-      <element id="directory" name="WEB-INF">
-        <element id="directory" name="classes">
-          <element id="module-output" name="webProject" />
-        </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="gson-2.8.5" />
-          <element id="library" level="project" name="lib" />
-        </element>
-      </element>
-      <element id="javaee-facet-resources" facet="webProject/web/Web" />
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/FMQO/META-INF/MANIFEST.MF" />
-      </element>
+      <element id="artifact" artifact-name="webProject" />
     </root>
   </artifact>
 </component>

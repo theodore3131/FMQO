@@ -1,0 +1,4 @@
+http://172.26.35.251:8080/openrdf-sesame	chebi
+http://172.26.35.251:8080/openrdf-sesame	kegg
+http://172.26.35.250:8080/openrdf-sesame	drugbank
+http://172.26.35.250:8080/openrdf-sesame	dbpedia

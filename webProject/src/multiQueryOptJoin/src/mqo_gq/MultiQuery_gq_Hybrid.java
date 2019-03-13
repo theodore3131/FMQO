@@ -1,25 +1,9 @@
 package multiQueryOptJoin.src.mqo_gq;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
-import java.io.Reader;
+import java.io.*;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
-import java.util.TreeMap;
 
 import org.openrdf.model.Value;
 import org.openrdf.query.BindingSet;
@@ -30,6 +14,7 @@ import org.openrdf.query.QueryLanguage;
 import org.openrdf.query.TupleQuery;
 import org.openrdf.query.TupleQueryResult;
 import org.openrdf.query.algebra.StatementPattern;
+import org.openrdf.query.algebra.Str;
 import org.openrdf.query.algebra.helpers.StatementPatternCollector;
 import org.openrdf.query.parser.ParsedQuery;
 import org.openrdf.query.parser.sparql.SPARQLParser;
@@ -51,22 +36,34 @@ import multiQueryOptJoin.src.Common.TriplePattern;
  * @author gq
  */
 public class MultiQuery_gq_Hybrid {
-	static HashMap<Integer,Set<String>> propertyMap = new HashMap<Integer,Set<String>>();
-	public static ArrayList<FullQuery> query(String query) {
- 		
+	HashMap<Integer,Set<String>> propertyMap = new HashMap<Integer,Set<String>>();
+    
+	final static String LIFESCIENCE = "resource/configure_lifeScience.txt";
+	final static String CROSSDOMAIN = "resource/configure_crossDomain.txt";
+	final static String LARGERDFDATA = "resource/configure_largeData.txt";
+	final static String WATDIV100M = "resource/configure_watDiv100.txt";
+	final static String LIFESCIENCECROSSDOMAIN = "resource/configure_lifeCross.txt";
+	final static String LIFESCIENCEWATDIV100M = "resource/configure_lifeWat.txt";
+	final static String CROSSDOMAINWATDIV100M = "resource/configure_crossWat.txt";
+	final static String LARGERDFDATAWATDIV100M = "resource/configure_largeWat.txt";
+	final static String LIFESCIENCECROSSDOMAINWATDIV100M = "resource/configure_lifeCrossWat.txt";
+
+	static String[] SERVERTYPEs = {LIFESCIENCE,CROSSDOMAIN,LARGERDFDATA,WATDIV100M,LIFESCIENCECROSSDOMAIN,LIFESCIENCEWATDIV100M,CROSSDOMAINWATDIV100M,LARGERDFDATAWATDIV100M,LIFESCIENCECROSSDOMAINWATDIV100M};
+	public Map<String,Object> query(String query, int config, int query_num) {
+ 		ClassLoader classLoader = MultiQuery_gq_Hybrid.class.getClassLoader();
 		int templateNumArr = 1;
-		
+
 		//本地测试 - 
-		String severPath = "/Users/zhiweixu/Desktop/FMQO/configure_lifeScience.txt"; //configure_peng_test.txt
+		String severPath = classLoader.getResource(SERVERTYPEs[config]).getFile();
 		String severType = severPath.substring(severPath.lastIndexOf("/")+1,severPath.lastIndexOf("."));
 		ArrayList<SeverInfo> severList = new ArrayList<SeverInfo>();
 		String workloadPath = "";		 //D:/MQO/query/test_chebi.sparql  D:/MQO/query/query_50.txt
 		String optimizaType = ""; // 设置优化类型 input: Filter , values ,optional or none
 		String outputPath = "";	// 输出文件路径
 
-		int windowSize = 2;
-		int[] queryNumArr ={2}; 
-		
+		int windowSize = query_num;
+		int[] queryNumArr ={query_num};
+
 		try {
 			InputStream configIn = new FileInputStream(new File(severPath));
 			Reader configInRead = new InputStreamReader(configIn);
@@ -81,31 +78,32 @@ public class MultiQuery_gq_Hybrid {
 						InputStream in16;
 						try {
 							String serstr = "";
-							String[] TermArr;	
+							String[] TermArr;
+							configMain = classLoader.getResource(configMain).getFile();
 							in16 = new FileInputStream(new File(configMain));
 							Reader inr16 = new InputStreamReader(in16);
 							BufferedReader br16 = new BufferedReader(inr16);
 							serstr = br16.readLine();
 							while (serstr != null) {
 								serstr = serstr.trim();
-								TermArr = serstr.split("\t");	
-								severList.add(new SeverInfo(TermArr[0], TermArr[1]));	
+								TermArr = serstr.split("\t");
+								severList.add(new SeverInfo(TermArr[0], TermArr[1]));
 								serstr = br16.readLine();
 							}
 							br16.close();
 						} catch (Exception e1) {
 							e1.printStackTrace();
-						}	
+						}
 				}
 				else if(configName.equals("optimizaType")){ //优化类型
 					optimizaType = configMain;
-				}				
+				}
 				else if(configName.equals("outputPath")){//输出路径
 					outputPath = configMain;
-				}	
+				}
 				else if(configName.equals("WorkloadPath")){//查询路径
 					workloadPath = configMain;
-				}	
+				}
 				else if(configName.equals("DataType")){
 					severType = configMain;
 				}
@@ -113,6 +111,7 @@ public class MultiQuery_gq_Hybrid {
 					for(int fileId=0;fileId < configMain.split(";").length;fileId++){
 						// 分别保存每个数据库的property
 						String fileStr = configMain.split(";")[fileId];
+						fileStr = classLoader.getResource(fileStr).getFile();
 						Set<String> proSet = new HashSet<String>();
 						InputStream figIn = new FileInputStream(new File(fileStr));
 						Reader figInRead = new InputStreamReader(figIn);
@@ -126,9 +125,15 @@ public class MultiQuery_gq_Hybrid {
 						for(int i=0;i<severList.size();i++){
 							String ip = severList.get(i).getSesameServer().split(":")[1].substring(2);
 //							System.out.println(ip);
-//							if(fileStr.contains(ip)&&fileStr.contains(severList.get(i).getRepositoryID())){								
-							if(fileStr.contains(severList.get(i).getRepositoryID())){						
-								propertyMap.put(i, proSet);
+							boolean type = SERVERTYPEs[config].split("/")[1].toUpperCase().contains("WAT");
+							if (type) {
+								if (fileStr.contains(ip) && fileStr.contains(severList.get(i).getRepositoryID())) {
+									propertyMap.put(i, proSet);
+								}
+							} else {
+								if(fileStr.contains(severList.get(i).getRepositoryID())){
+									propertyMap.put(i, proSet);
+								}
 							}
 						}
 //						System.out.println(propertyMap.size()+" , "+propertyMap.toString());
@@ -147,37 +152,54 @@ public class MultiQuery_gq_Hybrid {
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
 			String currTime = df.format(day);
 			int	query_n = queryNumArr[0];
+			Map<String, Object> map = new HashMap<String, Object>();
             ArrayList<FullQuery> arrayList = new ArrayList<>();
 			for (int i = 0; i < templateNumArr; i++) {
-				PrintStream out1 = new PrintStream(new File(outputPath+"/"+query_n+"log_"+severType+"_"+optimizaType+"_"+ currTime+"_("+(i+1)+").txt"));
-				String resultPath = outputPath+"/query"+ query_n + "_result" + currTime + "_("+(i+1)+").txt";
+				//use to capture the log
+				ByteArrayOutputStream os = new ByteArrayOutputStream();
+				ByteArrayOutputStream os1 = new ByteArrayOutputStream();
+				PrintStream out1 = new PrintStream(os);
+				PrintStream out2 = new PrintStream(os1);
+//				PrintStream out1 = new PrintStream(new File(outputPath+"/"+query_n+"log_"+severType+"_"+optimizaType+"_"+ currTime+"_("+(i+1)+").txt"));
+//				String resultPath = outputPath+"/query"+ query_n + "_result" + currTime + "_("+(i+1)+").txt";
 				// 第一次执行
-                arrayList = run(severList, /*workloadPath,*/ query, resultPath, out1, query_n,optimizaType,windowSize);
-				out1.println("templateNum =" + (i+1)+ ", queryNum =" + queryNumArr[0]);
-				out1.println("severList : " + severList + "\n");
-			
+				try {
+					arrayList = run(severList, /*workloadPath,*/ query, out1, out2, query_n,optimizaType,windowSize);
+				} catch (Exception e) {
+					out1.println(e.getMessage());
+				}
+
+//				out2.println("templateNum =" + (i+1)+ ", queryNum =" + queryNumArr[0]);
+//				out2.println("severList : " + severList + "\n");
+
 				System.out.println((i+1)+" is ok~");
 				out1.flush();
 				out1.close();
+				out2.flush();
+				out2.close();
+				String log = os.toString();
+				String summary = os1.toString();
+				map.put("arrayList", arrayList);
+				map.put("log",log);
+				map.put("summary", summary);
 			}
 			System.out.println("Done !!");
-			return arrayList;
-		} catch (FileNotFoundException e) {
+			return map;
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return null;
 	}
-	
+
 	/**
 	 * 
 	 * @param severList
 	 * @param SPARQLQuery
-	 * @param resFileStr
 	 * @param out1
 	 * @param queryNum      
 	 * @param optimizaType  优化类型
 	 */
-	public static ArrayList<FullQuery> run(ArrayList<SeverInfo> severList,/*String workloadFileStr,*/ String SPARQLQuery, String resFileStr, PrintStream out1,int queryNum,String optimizaType,int windowSize) {
+	public ArrayList<FullQuery> run(ArrayList<SeverInfo> severList,/*String workloadFileStr,*/ String SPARQLQuery, /*String resFileStr,*/ PrintStream out1, PrintStream out2, int queryNum,String optimizaType,int windowSize) {
 
 		String str = "";
 		int count = 0;
@@ -689,8 +711,8 @@ public class MultiQuery_gq_Hybrid {
 			
 					// 开始查询   将当前重写的查询在它属于的各个数据库去查询
 					int res_count=0;
+
 					for (int k = 0; k < curSourceList.size(); k++) {
-						
 						// 连接数据库服务器
 					  SeverInfo tmpSeverInfo = severList.get(curSourceList.get(k));
 					  for (int q = 0; q < RewrittenQueryList.size(); q++) {
@@ -791,7 +813,7 @@ public class MultiQuery_gq_Hybrid {
 					 
 					}// 当前查询在 所属资源中的查询结束
 					out1.println("共  "+res_count+" 个结果");
-					
+
 					/**
 					 *  优化后面的查询
 					 *  前提：它们属于至少同一个查询，并且有相同的变量  ?x
@@ -1131,32 +1153,32 @@ public class MultiQuery_gq_Hybrid {
 
 			System.out.println("----- FMQO -----");//OPTIONAL + union
 			// 输出查询结果
-			PrintStream resultOut = new PrintStream(new File(resFileStr));
-			for (int queryIdx = 0; queryIdx < queryNum; queryIdx++) {
-				FullQuery curFullQuery = allQueryList.get(queryIdx);
-				for (int i = 0; i < curFullQuery.getResultList().size(); i++) {
-					resultOut.print("[");
-					for (int j = 0; j < curFullQuery.getResultList().get(i).length; j++) {
-						resultOut.print(curFullQuery.getIDVarMap().get(j) + "="+ curFullQuery.getResultList().get(i)[j] + "\t");
-					}
-					resultOut.print("]");
-					resultOut.println();
-				}
-				resultOut.println();resultOut.println();
-				resultOut.println("==== there are "+ curFullQuery.getResultList().size()+ " results for query " + (queryIdx+1) + " ====");
-				resultOut.println();resultOut.println();
-			}
-			out1.println("---------------------------------------------------------");
+//			PrintStream resultOut = new PrintStream(new File(resFileStr));
+//			for (int queryIdx = 0; queryIdx < queryNum; queryIdx++) {
+//				FullQuery curFullQuery = allQueryList.get(queryIdx);
+//				for (int i = 0; i < curFullQuery.getResultList().size(); i++) {
+//					resultOut.print("[");
+//					for (int j = 0; j < curFullQuery.getResultList().get(i).length; j++) {
+//						resultOut.print(curFullQuery.getIDVarMap().get(j) + "="+ curFullQuery.getResultList().get(i)[j] + "\t");
+//					}
+//					resultOut.print("]");
+//					resultOut.println();
+//				}
+//				resultOut.println();resultOut.println();
+//				resultOut.println("==== there are "+ curFullQuery.getResultList().size()+ " results for query " + (queryIdx+1) + " ====");
+//				resultOut.println();resultOut.println();
+//			}
+			out2.println("---------------------------------------------------------");
 			
-			out1.println("Source selection time = " + (preEndTime - preStartTime)+" (ms)");
-			out1.println("evaluation time = " + (endTime - startTime)+" (ms)");
-			out1.println("number of remote call = " + call_num);
+			out2.println("Source selection time = " + (preEndTime - preStartTime)+" (ms)");
+			out2.println("evaluation time = " + (endTime - startTime)+" (ms)");
+			out2.println("number of remote call = " + call_num);
 			System.out.println("Source selection time = " + (preEndTime - preStartTime)+" (ms)");
 			System.out.println("evaluation time = " + (endTime - startTime)+" (ms)");
 			System.out.println("number of remote call = " + call_num);
 //			System.out.println("end!!!");
-			resultOut.flush();
-			resultOut.close();
+//			resultOut.flush();
+//			resultOut.close();
 			return allQueryList;
 		} catch (RepositoryException e) {
 			e.printStackTrace();
